@@ -17,7 +17,6 @@ class TXT_Articles_Parser implements Articles_Parser {
 	 */
 	private $articles;
 
-
 	/**
 	 * Parse all articles
 	 *

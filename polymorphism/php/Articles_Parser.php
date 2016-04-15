@@ -4,6 +4,7 @@
  * Interface Articles_Parser
  */
 interface Articles_Parser {
+
 	/**
 	 * Parse articles from a source
 	 *
