@@ -9,7 +9,7 @@ Otherwise we have to validate whether the passed object has the necessary method
 Imagine if we have to execute more than one methods on the passed objects, then the validation will flood our render method with unnecessary complexity.
 
 ## UML Diagram
-[Polymorphism UML diagram](https://github.com/jordan-enev/oop/blob/master/polymorphism/php/uml_diagram.png)
+![Polymorphism UML diagram](https://github.com/jordan-enev/oop/blob/master/polymorphism/php/uml_diagram.png)
 
 ## Examples
 * [php](https://github.com/jordan-enev/oop/tree/master/polymorphism/php)
