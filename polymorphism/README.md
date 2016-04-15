@@ -8,5 +8,8 @@ The **benefits** from using **polymorphism** in our example is that *we can exec
 Otherwise we have to validate whether the passed object has the necessary methods, which leads to redundant validation code.
 Imagine if we have to execute more than one methods on the passed objects, then the validation will flood our render method with unnecessary complexity.
 
+## UML Diagram
+[Polymorphism UML diagram](https://github.com/jordan-enev/oop/blob/master/polymorphism/php/uml_diagram.png)
+
 ## Examples
 * [php](https://github.com/jordan-enev/oop/tree/master/polymorphism/php)
