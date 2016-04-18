@@ -2,6 +2,7 @@
 
 ## Definition
 Polymorphism allows the expression of some sort of contract, with potentially many types implementing that contract (whether through class inheritance or not) in different ways, each according to their own purpose. Code using that contract should not have to care about which implementation is involved, only that the contract will be obeyed.
+
 [Source](http://stackoverflow.com/questions/409969/polymorphism-define-in-just-two-sentences)
 
 ## Case
