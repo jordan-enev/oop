@@ -11,7 +11,7 @@ class CSVArticlesParser implements ArticlesParser
     /**
      * @var string - Absolute .csv file path
      */
-    public $file_path;
+    public $filePath;
 
     /**
      * @var array - Parsed articles
@@ -25,7 +25,7 @@ class CSVArticlesParser implements ArticlesParser
      */
     public function parse()
     {
-        $file = file($this->file_path);
+        $file = file($this->filePath);
         foreach ($file as $line) {
             $data = str_getcsv($line);
 

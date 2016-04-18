@@ -11,7 +11,7 @@ class TXTArticlesParser implements ArticlesParser
     /**
      * @var string - Absolute .txt file path
      */
-    public $file_path;
+    public $filePath;
 
     /**
      * @var array - Parsed articles
@@ -25,7 +25,7 @@ class TXTArticlesParser implements ArticlesParser
      */
     public function parse()
     {
-        $file = fopen($this->file_path, "r");
+        $file = fopen($this->filePath, "r");
 
         while (!feof($file)) {
             $line = fgets($file);
