@@ -14,5 +14,7 @@ Another option is the Child to extend the Man, which in turn to extend the Women
 So **Traits to the rescue**. We can create two Traits those contain the specific behaviours - WomenTrait and ManTrait. In that case we don't violate Single responsibility principle and we don't duplicate any code.
 
 ## UML Diagram
+![Traits UML diagram](https://github.com/jordan-enev/oop/blob/master/traits/php/uml_diagram.png)
 
 ## Examples
+* [php](https://github.com/jordan-enev/oop/tree/master/traits/php)
