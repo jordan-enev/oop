@@ -6,7 +6,7 @@ Traits are a mechanism for code reuse in single inheritance languages such as PH
 [Source](http://php.net/manual/en/language.oop5.traits.php)
 
 ## Case
-> Imagine we have three classes - Women, Man and Child. Let's say that Women and Man classes have their own specific behaviour like shopping (Women) and playing football (Man). So let's assume that their children will inherit the specific parents' behaviours. How can we do that in a singe inheritance language?
+> Imagine we have three classes - Women, Man and Child. Let's say that Women and Man classes have their own specific behaviour like singing (Women) and playing football (Man). So let's assume that their children will inherit the specific parents' behaviours. How can we do that in a singe inheritance language?
 
 ## Purpose
 Of course we can create a parent class Person (that is inherited by the Women, Man and Child classes), but in that scenario we will violate [Single responsibility principle](https://en.wikipedia.org/wiki/Single_responsibility_principle).
